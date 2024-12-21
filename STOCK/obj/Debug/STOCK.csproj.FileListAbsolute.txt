@@ -171,3 +171,9 @@ D:\06. xJob\00. Kiot\Kiot_Shop\STOCK\bin\Debug\de\DevExpress.XtraGauges.v21.2.Co
 D:\06. xJob\00. Kiot\Kiot_Shop\STOCK\bin\Debug\es\DevExpress.XtraGauges.v21.2.Core.resources.dll
 D:\06. xJob\00. Kiot\Kiot_Shop\STOCK\bin\Debug\ja\DevExpress.XtraGauges.v21.2.Core.resources.dll
 D:\06. xJob\00. Kiot\Kiot_Shop\STOCK\bin\Debug\ru\DevExpress.XtraGauges.v21.2.Core.resources.dll
+D:\06. xJob\00. Kiot\Kiot_Shop\STOCK\bin\Debug\DevExpress.XtraNavBar.v21.2.dll
+D:\06. xJob\00. Kiot\Kiot_Shop\STOCK\bin\Debug\DevExpress.XtraNavBar.v21.2.xml
+D:\06. xJob\00. Kiot\Kiot_Shop\STOCK\bin\Debug\de\DevExpress.XtraNavBar.v21.2.resources.dll
+D:\06. xJob\00. Kiot\Kiot_Shop\STOCK\bin\Debug\es\DevExpress.XtraNavBar.v21.2.resources.dll
+D:\06. xJob\00. Kiot\Kiot_Shop\STOCK\bin\Debug\ja\DevExpress.XtraNavBar.v21.2.resources.dll
+D:\06. xJob\00. Kiot\Kiot_Shop\STOCK\bin\Debug\ru\DevExpress.XtraNavBar.v21.2.resources.dll
