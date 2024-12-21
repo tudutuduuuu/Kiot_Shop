@@ -1,0 +1,15 @@
+D:\06. xJob\00. Kiot\Kiot_Shop\BusinessLayer\bin\Debug\BusinessLayer.dll.config
+D:\06. xJob\00. Kiot\Kiot_Shop\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\06. xJob\00. Kiot\Kiot_Shop\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\06. xJob\00. Kiot\Kiot_Shop\BusinessLayer\bin\Debug\DataLayer.dll
+D:\06. xJob\00. Kiot\Kiot_Shop\BusinessLayer\bin\Debug\EntityFramework.dll
+D:\06. xJob\00. Kiot\Kiot_Shop\BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\06. xJob\00. Kiot\Kiot_Shop\BusinessLayer\bin\Debug\DataLayer.pdb
+D:\06. xJob\00. Kiot\Kiot_Shop\BusinessLayer\bin\Debug\DataLayer.dll.config
+D:\06. xJob\00. Kiot\Kiot_Shop\BusinessLayer\bin\Debug\EntityFramework.xml
+D:\06. xJob\00. Kiot\Kiot_Shop\BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\06. xJob\00. Kiot\Kiot_Shop\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+D:\06. xJob\00. Kiot\Kiot_Shop\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\06. xJob\00. Kiot\Kiot_Shop\BusinessLayer\obj\Debug\Business.EA331CBA.Up2Date
+D:\06. xJob\00. Kiot\Kiot_Shop\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\06. xJob\00. Kiot\Kiot_Shop\BusinessLayer\obj\Debug\BusinessLayer.pdb
