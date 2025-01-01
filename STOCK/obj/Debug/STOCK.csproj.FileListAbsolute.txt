@@ -177,3 +177,4 @@ D:\06. xJob\00. Kiot\Kiot_Shop\STOCK\bin\Debug\de\DevExpress.XtraNavBar.v21.2.re
 D:\06. xJob\00. Kiot\Kiot_Shop\STOCK\bin\Debug\es\DevExpress.XtraNavBar.v21.2.resources.dll
 D:\06. xJob\00. Kiot\Kiot_Shop\STOCK\bin\Debug\ja\DevExpress.XtraNavBar.v21.2.resources.dll
 D:\06. xJob\00. Kiot\Kiot_Shop\STOCK\bin\Debug\ru\DevExpress.XtraNavBar.v21.2.resources.dll
+D:\06. xJob\00. Kiot\Kiot_Shop\STOCK\obj\Debug\STOCK.frmDonVi.resources

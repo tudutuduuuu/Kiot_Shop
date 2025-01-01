@@ -1,12 +1,7 @@
 ﻿using BusinessLayer;
+using DataLayer;
 using DevExpress.XtraNavBar;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 
 namespace STOCK
@@ -17,11 +12,12 @@ namespace STOCK
         {
             InitializeComponent();
         }
-        SYS_FUNC _func;
+
+        BusinessLayer.SYS_FUNC _func;
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-            _func = new SYS_FUNC();
+            _func = new BusinessLayer.SYS_FUNC();
             leftMenu();
         }
 
@@ -65,5 +61,46 @@ namespace STOCK
         {
             Application.Exit();
         }
+
+        private void navMain_LinkClicked(object sender, NavBarLinkEventArgs e)
+        {
+            string func_code = e.Link.Item.Tag.ToString();
+
+            //var _group = _sysGroup.GetGroupByMember(_user.IDUSER);
+            //var _uRight = _sysRight.GetRight(_user.IDUSER, func_code);
+
+            //if (_group = null)
+            //{
+            //    var _groupRight = _sysRight.GetRight(_group.GROUP, func_code);
+            //    if (_uRight.USER_RIGHT < _groupRight.USER_RIGHT)
+            //    {
+            //        _uRight.USER_RIGHT = _groupRight.USER_RIGHT
+            //    }
+            //}
+
+            //if (_uRight.USER_RIGHT == 0)
+            //{
+            //    MessageBox.Show("Không có quyền thao tác.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //}
+            //else
+            //{
+            switch (func_code)
+            {
+                //case "CONGTY":
+                //    {
+                //        frmCongTy frm = new frmCongTy(_user, _uRight.USER_RIGHT.Value);
+                //        frm.ShowDialog();
+                //        break;
+                //    }
+                case "DONVI":
+                    {
+                        frmDonVi frm = new frmDonVi();
+                        frm.ShowDialog();
+                        break;
+                    }
+            }
+        //}
+        }
     }
 }
+

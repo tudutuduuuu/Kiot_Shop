@@ -21,6 +21,8 @@ namespace DataLayer
         public string EMAIL { get; set; }
         public string DIACHI { get; set; }
         public string MACTY { get; set; }
-        public Nullable<int> DISABLED { get; set; }
+        public Nullable<bool> DISABLED { get; set; }
+        public Nullable<bool> KHO { get; set; }
+        public string KYHIEU { get; set; }
     }
 }

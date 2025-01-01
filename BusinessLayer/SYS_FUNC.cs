@@ -21,7 +21,7 @@ namespace BusinessLayer
 
         public List<DataLayer.SYS_FUNC> GetChild(string parent)
         {
-            return db.SYS_FUNC.Where(x => x.ISGROUP == true && x.MENU == true && x.PARENT == parent).OrderBy(x => x.SORT).ToList();
+            return db.SYS_FUNC.Where(x => x.ISGROUP == false && x.MENU == true && x.PARENT == parent).OrderBy(x => x.SORT).ToList();
         }
     }
 }

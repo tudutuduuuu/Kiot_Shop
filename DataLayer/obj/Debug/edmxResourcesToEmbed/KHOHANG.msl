@@ -51,20 +51,6 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="DONVIs">
-      <EntityTypeMapping TypeName="KHOHANG.DONVI">
-        <MappingFragment StoreEntitySet="DONVI">
-          <ScalarProperty Name="MADVI" ColumnName="MADVI" />
-          <ScalarProperty Name="TENDVI" ColumnName="TENDVI" />
-          <ScalarProperty Name="DIENTHOAI" ColumnName="DIENTHOAI" />
-          <ScalarProperty Name="FAX" ColumnName="FAX" />
-          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
-          <ScalarProperty Name="DIACHI" ColumnName="DIACHI" />
-          <ScalarProperty Name="MACTY" ColumnName="MACTY" />
-          <ScalarProperty Name="DISABLED" ColumnName="DISABLED" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
     <EntitySetMapping Name="DONVITINHs">
       <EntityTypeMapping TypeName="KHOHANG.DONVITINH">
         <MappingFragment StoreEntitySet="DONVITINH">
@@ -192,6 +178,22 @@
         <MappingFragment StoreEntitySet="XUATXU">
           <ScalarProperty Name="MAXX" ColumnName="MAXX" />
           <ScalarProperty Name="TENXX" ColumnName="TENXX" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DONVIs">
+      <EntityTypeMapping TypeName="KHOHANG.DONVI">
+        <MappingFragment StoreEntitySet="DONVI">
+          <ScalarProperty Name="KYHIEU" ColumnName="KYHIEU" />
+          <ScalarProperty Name="KHO" ColumnName="KHO" />
+          <ScalarProperty Name="DISABLED" ColumnName="DISABLED" />
+          <ScalarProperty Name="MACTY" ColumnName="MACTY" />
+          <ScalarProperty Name="DIACHI" ColumnName="DIACHI" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="FAX" ColumnName="FAX" />
+          <ScalarProperty Name="DIENTHOAI" ColumnName="DIENTHOAI" />
+          <ScalarProperty Name="TENDVI" ColumnName="TENDVI" />
+          <ScalarProperty Name="MADVI" ColumnName="MADVI" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

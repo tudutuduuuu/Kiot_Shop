@@ -47,25 +47,12 @@
     <Property Name="DIACHI" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
     <Property Name="DISABLED" Type="Boolean" />
   </EntityType>
-  <EntityType Name="DONVI">
-    <Key>
-      <PropertyRef Name="MADVI" />
-    </Key>
-    <Property Name="MADVI" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-    <Property Name="TENDVI" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
-    <Property Name="DIENTHOAI" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
-    <Property Name="FAX" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
-    <Property Name="EMAIL" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-    <Property Name="DIACHI" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
-    <Property Name="MACTY" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
-    <Property Name="DISABLED" Type="Int32" />
-  </EntityType>
   <EntityType Name="DONVITINH">
     <Key>
       <PropertyRef Name="MADVT" />
     </Key>
     <Property Name="MADVT" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="TENDVT" Type="String" />
+    <Property Name="TENDVT" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
   </EntityType>
   <EntityType Name="HANGHOA">
     <Key>
@@ -187,7 +174,6 @@
     <EntitySet Name="CHUNGTUs" EntityType="Self.CHUNGTU" />
     <EntitySet Name="CHUNGTU_CT" EntityType="Self.CHUNGTU_CT" />
     <EntitySet Name="CONGTies" EntityType="Self.CONGTY" />
-    <EntitySet Name="DONVIs" EntityType="Self.DONVI" />
     <EntitySet Name="DONVITINHs" EntityType="Self.DONVITINH" />
     <EntitySet Name="HANGHOAs" EntityType="Self.HANGHOA" />
     <EntitySet Name="NHACUNGCAPs" EntityType="Self.NHACUNGCAP" />
@@ -199,5 +185,21 @@
     <EntitySet Name="SYS_USER" EntityType="Self.SYS_USER" />
     <EntitySet Name="TONKHOes" EntityType="Self.TONKHO" />
     <EntitySet Name="XUATXUs" EntityType="Self.XUATXU" />
+    <EntitySet Name="DONVIs" EntityType="KHOHANG.DONVI" />
   </EntityContainer>
+  <EntityType Name="DONVI">
+    <Key>
+      <PropertyRef Name="MADVI" />
+    </Key>
+    <Property Name="MADVI" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TENDVI" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="DIENTHOAI" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FAX" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="EMAIL" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DIACHI" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="MACTY" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="DISABLED" Type="Boolean" />
+    <Property Name="KHO" Type="Boolean" />
+    <Property Name="KYHIEU" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
 </Schema>

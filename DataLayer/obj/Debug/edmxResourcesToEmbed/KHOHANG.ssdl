@@ -58,7 +58,9 @@
     <Property Name="EMAIL" Type="nvarchar" MaxLength="50" />
     <Property Name="DIACHI" Type="nvarchar" MaxLength="200" />
     <Property Name="MACTY" Type="nvarchar" MaxLength="10" />
-    <Property Name="DISABLED" Type="int" />
+    <Property Name="DISABLED" Type="bit" />
+    <Property Name="KHO" Type="bit" />
+    <Property Name="KYHIEU" Type="nvarchar" MaxLength="50" />
   </EntityType>
   <EntityType Name="DONVITINH">
     <Key>
