@@ -28,8 +28,7 @@ namespace BusinessLayer
         public DataLayer.DONVI GetItem(string maDonVi)
         {
             return db.DONVIs
-                .FirstOrDefault(x => 
-                string.Equals(x.MADVI, maDonVi, System.StringComparison.OrdinalIgnoreCase));
+                .FirstOrDefault(x => x.MADVI == maDonVi);
         }
 
         /// <summary>
@@ -49,7 +48,7 @@ namespace BusinessLayer
         public List<DataLayer.DONVI> GetAll(string maCongTy)
         {
             return db.DONVIs
-                .Where(x => 
+                .Where(x =>
                 string.Equals(x.MACTY, maCongTy, System.StringComparison.OrdinalIgnoreCase))
                 .ToList();
         }
@@ -80,7 +79,7 @@ namespace BusinessLayer
         public void Update(DataLayer.DONVI item)
         {
             DataLayer.DONVI _dvi = db.DONVIs
-                .FirstOrDefault(x => string.Equals(x.MADVI, item.MADVI, StringComparison.OrdinalIgnoreCase));
+                .FirstOrDefault(x => x.MADVI == item.MADVI);
             _dvi.MACTY = item.MACTY;
             _dvi.TENDVI = item.TENDVI;
             _dvi.DIENTHOAI = item.DIENTHOAI;
@@ -107,7 +106,7 @@ namespace BusinessLayer
         public void Delete(string maDonVi)
         {
             DataLayer.DONVI _dvi = db.DONVIs
-                .FirstOrDefault(x => string.Equals(x.MADVI, maDonVi, StringComparison.OrdinalIgnoreCase));
+                .FirstOrDefault(x => x.MADVI == maDonVi);
             _dvi.DISABLED = true;
 
             try
